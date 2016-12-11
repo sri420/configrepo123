@@ -1,7 +1,3 @@
-zuul:
-  ignoredServices: '*'
-  routes:
-    billing: /api/billing/**
 endpoints:
   actuator:
     enabled: true
