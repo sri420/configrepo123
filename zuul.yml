@@ -2,6 +2,7 @@ zuul:
   ignoredServices: '*'
   routes:
     billing: /api/billing/**
+    config: /api/config/**
 endpoints:
   actuator:
     enabled: true
